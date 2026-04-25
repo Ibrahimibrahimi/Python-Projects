@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html ,body {
+    width: 100%;
+    height : 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    outline: solid 1px rgb(38, 92, 99);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 139, 150);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sprite {
+    outline: solid 1px ;
+    padding: 4px;
+    margin-block: 5px;
+}
