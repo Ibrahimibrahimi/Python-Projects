@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Best plateform for nothing
+{% endblock title %}
+    {% block H %}
+        {{super()}}
+    {% endblock H %}
+{% block content %}
+
+<form action="/login" method="post">
+    Email : <input type="email" name="email" id="">
+    <br>
+    <span style="color : red;">
+        {{e_error}}
+    </span>
+    <br>
+    Password : <input type="password" name="password" id="">
+    <br>
+    <span style="color : red;">
+        {{p_error}}
+    </span>
+    <br>
+    
+    <input type="submit" value="Login">
+</form>
+<hr>
+<div>
+    No account ? <a href="/register"> Register !!</a>
+</div>
+{% endblock content %}

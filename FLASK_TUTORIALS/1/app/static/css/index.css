@@ -1,0 +1,48 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+nav.header ul {
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    width : 100%;
+    height : 70px;
+    padding: 9px;
+    background-color: #465 ;
+}
+
+nav.header ul li {
+    padding: 5px;
+    background-color: #586c56;
+    outline : solid 1px black;
+    cursor: pointer;
+    margin-inline : 20px;
+    list-style: none;
+    font-size: 33px;
+}
+
+nav.header ul li a {
+    text-decoration: none;
+    color : white;
+    font-weight: 600;
+}
+
+
+/* users list  */
+.profile:has(h2.name) {
+    background-color: #132312;
+    color : white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 10px;
+    width : 500px;
+    height: fit-content;
+    margin-left: 55px;
+}
+.profile:has(h2.name) h2.name  {
+    padding: 3px 5px;
+    outline: solid 1px white;
+    
+}
